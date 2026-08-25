@@ -4,6 +4,8 @@ A complete Parking Lot Management System designed as a full-stack software proje
 
 The project is built with a **Java backend**, **JUnit 5 testing**, and a **vanilla HTML/CSS/JavaScript frontend**. The architecture is designed to keep the core parking logic independent from the user interface.
 
+## ✨ Live Link: https://parkinglotsystem-7bad.onrender.com/
+
 ---
 ## 📌 Complete Class Diagram
 <img width="694" height="607" alt="image" src="https://github.com/user-attachments/assets/de0d878d-ac11-4ed7-8c11-5717f4856220" />
