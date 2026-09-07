@@ -564,10 +564,11 @@ function displayFare(result) {
 
     if (durationElement) {
 
-        durationElement.textContent =
+        durationElement.textContent =(`${((
             result.duration ??
             result.parkingDuration ??
-            "N/A";
+            "N/A")/60).toFixed(2)} Minutes`);
+
 
     }
 
@@ -1018,9 +1019,9 @@ async function refreshParkingData() {
 // AUTO REFRESH
 // ============================================================
 
-// Refresh parking information every 10 seconds.
+// Refresh parking information every 100 seconds.
 
 setInterval(
     refreshParkingData,
-    10000
+    100000
 );

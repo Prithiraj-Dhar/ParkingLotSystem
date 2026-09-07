@@ -62,6 +62,6 @@ public class Ticket {
     public BigDecimal calculateParkingDuration() {
         return new BigDecimal(
                 Duration.between(entryTime, Objects.requireNonNullElseGet(exitTime, LocalDateTime::now))
-                        .toMinutes());
+                        .toSeconds());
     }
 }
