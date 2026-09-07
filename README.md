@@ -8,7 +8,8 @@ The project is built with a **Java backend**, **JUnit 5 testing**, and a **vanil
 
 ---
 ## 📌 Complete Class Diagram
-<img width="694" height="607" alt="image" src="https://github.com/user-attachments/assets/de0d878d-ac11-4ed7-8c11-5717f4856220" />
+<img width="694" height="607" alt="ParkingLot" src="https://github.com/user-attachments/assets/2e48d07c-6d4e-4833-8dc3-55df6ca13d46" />
+
 
 ## 📌 Project Overview
 
