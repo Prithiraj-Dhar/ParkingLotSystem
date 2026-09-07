@@ -214,7 +214,6 @@ ParkingLotSystem/
 │                   │   ├── ParkingManager.java
 │                   │   ├── CompactSpot.java
 │                   │   ├── RegularSpot.java
-│                   │   ├── HandicappedSpot.java
 │                   │   └── OversizedSpot.java
 │                   │
 │                   └── vehicle/
@@ -481,40 +480,6 @@ Example response:
 
 ---
 
-# 🧪 Testing
-
-JUnit 5 is used for automated testing.
-
-The primary vehicle journey test covers:
-
-```text
-Create Vehicle
-      ↓
-Enter Parking Lot
-      ↓
-Generate Ticket
-      ↓
-Assign Parking Spot
-      ↓
-Find Vehicle
-      ↓
-Exit Parking Lot
-      ↓
-Record Exit Time
-      ↓
-Release Parking Spot
-```
-
-Run tests from IntelliJ:
-
-```text
-Right Click ParkingLotTest.java
-        ↓
-Run 'ParkingLotTest'
-```
-
----
-
 # 📊 Example User Flow
 
 ### 1. User opens the dashboard
@@ -606,10 +571,6 @@ A production implementation should return appropriate HTTP status codes such as:
 - Collections Framework
 - Java Time API
 - `BigDecimal`
-
-## Testing
-
-- JUnit 5
 
 ## Frontend
 
